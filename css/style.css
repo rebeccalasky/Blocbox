@@ -52,6 +52,17 @@ p {
 
 }
 
+.one-fourth-lower {
+  position:relative;
+  top: 20px;
+  width:96%;
+    float:left;
+    min-height: 1px;
+    margin:0 2% 20px;
+
+}
+
+
 /* .final-cta{
 text-align: center;
        }
@@ -88,6 +99,8 @@ text-align: center;
    }
    .one-fourth {
      width:21%;
+
+
    }
  }
  @media (min-width: 1200px) {
@@ -280,6 +293,10 @@ header nav ul > li.btn-outline:hover > a {
    padding:4em 0;
    text-align: center;
  }
+
+ .testimonials .lower {
+  padding: 20px 0px 0px 0px;
+}
  .testimonials h2 {
    color:#3498DB;
  }
