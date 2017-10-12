@@ -294,6 +294,8 @@ header nav ul > li.btn-outline:hover > a {
  .testimonials {
    padding:4em 0;
    text-align: center;
+list-style-type: none;
+
  }
 
  .testimonials .lower {
@@ -344,6 +346,7 @@ header nav ul > li.btn-outline:hover > a {
   font-size:13px;
   margin-top: 30px;
 }
+
 
 
 
@@ -400,6 +403,9 @@ header nav ul > li.btn-outline:hover > a {
    }
  }
 
+
+
+
  /* DASHBOARD */
  .dashboard {
    background:#F7F7F7;
@@ -448,6 +454,14 @@ header nav ul > li.btn-outline:hover > a {
    text-align: center;
    margin-right:8px;
  }
+
+.left-nav ul li a:hover {
+  background-color: gray;
+  }
+
+.left-nav ul li .active {
+     background-color: gray;
+     }
 
  /* LEFT NAVBAR SETTINGS */
 .left-nav .settings {
